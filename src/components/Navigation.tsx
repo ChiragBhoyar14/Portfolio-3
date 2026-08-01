@@ -55,7 +55,7 @@ const Navigation = () => {
             Resume
           </a>
           <a
-            href="mailto:chiragbhoyar@gmail.com"
+            href="mailto:chiragbhoyar14@gmail.com"
             className="px-5 py-2.5 bg-gradient-primary text-primary-foreground font-semibold rounded-lg hover:shadow-glow transition-all duration-300"
           >
             Hire Me
@@ -99,7 +99,7 @@ const Navigation = () => {
               Resume
             </a>
             <a
-              href="mailto:chiragbhoyar@gmail.com"
+              href="mailto:chiragbhoyar14@gmail.com"
               className="px-5 py-3 bg-gradient-primary text-primary-foreground font-semibold rounded-lg text-center"
             >
               Hire Me

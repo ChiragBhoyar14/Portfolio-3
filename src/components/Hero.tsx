@@ -82,7 +82,7 @@ const Hero = () => {
           className="flex items-center justify-center gap-6"
         >
           <a
-            href="mailto:chiragbhoyar@gmail.com"
+            href="mailto:chiragbhoyar14@gmail.com"
             className="p-3 rounded-xl glass text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
             aria-label="Email"
           >

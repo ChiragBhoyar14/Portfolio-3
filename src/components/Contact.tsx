@@ -30,14 +30,14 @@ const Contact = () => {
           className="grid gap-6 md:grid-cols-3 mb-12"
         >
           <a
-            href="mailto:chiragbhoyar@gmail.com"
+            href="mailto:chiragbhoyar14@gmail.com"
             className="group flex flex-col items-center p-6 bg-gradient-card rounded-2xl border border-border/50 hover:border-primary/30 transition-all duration-500 hover:shadow-glow"
           >
             <div className="p-4 bg-gradient-primary rounded-xl mb-4 group-hover:scale-110 transition-transform">
               <Mail className="w-6 h-6 text-primary-foreground" />
             </div>
             <span className="text-muted-foreground text-sm mb-1">Email</span>
-            <span className="text-foreground font-medium text-center break-all">chiragbhoyar@gmail.com</span>
+            <span className="text-foreground font-medium text-center break-all">chiragbhoyar14@gmail.com</span>
           </a>
 
           <a
@@ -56,7 +56,7 @@ const Contact = () => {
               <MapPin className="w-6 h-6 text-primary-foreground" />
             </div>
             <span className="text-muted-foreground text-sm mb-1">Location</span>
-            <span className="text-foreground font-medium">SR Nagar, Hyderabad, India</span>
+            <span className="text-foreground font-medium">Warora, District Chandrapur, Maharashtra, India 442907</span>
           </div>
         </motion.div>
 
@@ -68,7 +68,7 @@ const Contact = () => {
           className="text-center"
         >
           <a
-            href="mailto:chiragbhoyar@gmail.com?subject=Hello%20Chirag!"
+            href="mailto:chiragbhoyar14@gmail.com?subject=Hello%20Chirag!"
             className="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-primary text-primary-foreground font-semibold text-lg rounded-xl shadow-glow hover:shadow-float transition-all duration-300 hover:-translate-y-1"
           >
             <Send className="w-5 h-5" />
