@@ -23,7 +23,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <span className="inline-block px-4 py-2 mb-6 text-sm font-mono text-primary border border-primary/30 rounded-full glass">
-            Senior Software Developer
+            Senior .NET Developer
           </span>
         </motion.div>
 
@@ -34,7 +34,7 @@ const Hero = () => {
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6"
         >
           <span className="text-foreground">Hi, I'm </span>
-          <span className="text-gradient">Manu Kumar Singh</span>
+          <span className="text-gradient">Chirag Bhoyar</span>
         </motion.h1>
 
         <motion.p
@@ -43,8 +43,8 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed"
         >
-          5+ years crafting <span className="text-foreground font-medium">responsive, data-intensive web applications</span> across 
-          legal tech, public health, and insurance domains with React.js, Angular & TypeScript.
+          Senior .NET Developer with <span className="text-foreground font-medium">3+ years building scalable backend systems</span> and cloud-native applications.
+          Experienced in .NET 8, Azure, API design, and automated deployment workflows.
         </motion.p>
 
         <motion.div
@@ -61,6 +61,13 @@ const Hero = () => {
             <ArrowDown className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
           </a>
           <a
+            href="/Chirag_Bhoyar_Resume.pdf"
+            download
+            className="inline-flex items-center gap-2 px-8 py-4 glass text-foreground font-semibold rounded-xl hover:bg-muted/50 transition-all duration-300 hover:-translate-y-1"
+          >
+            Download Resume
+          </a>
+          <a
             href="#contact"
             className="inline-flex items-center gap-2 px-8 py-4 glass text-foreground font-semibold rounded-xl hover:bg-muted/50 transition-all duration-300 hover:-translate-y-1"
           >
@@ -75,14 +82,14 @@ const Hero = () => {
           className="flex items-center justify-center gap-6"
         >
           <a
-            href="mailto:manu.singh8437@gmail.com"
+            href="mailto:chiragbhoyar@gmail.com"
             className="p-3 rounded-xl glass text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
             aria-label="Email"
           >
             <Mail className="w-5 h-5" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/chirag-bhoyar-725747286/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-xl glass text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
@@ -91,7 +98,7 @@ const Hero = () => {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/ChiragBhoyar14"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-xl glass text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"

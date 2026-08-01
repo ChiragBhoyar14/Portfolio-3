@@ -3,23 +3,31 @@ import { motion } from "framer-motion";
 const skillCategories = [
   {
     title: "Languages",
-    skills: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3"],
+    skills: ["C#", "SQL", "JavaScript", "TypeScript", "Python (Basics)"],
   },
   {
-    title: "Frontend",
-    skills: ["React.js", "Angular", "RxJS", "Redux", "Redux Toolkit", "PrimeNG", "Kendo UI", "Fluent UI", "Tailwind CSS"],
+    title: "Frameworks & Platforms",
+    skills: [".NET 8", "ASP.NET Core", "ASP.NET MVC", "ASP.NET Core Web API", "Entity Framework Core", "Angular 17 (Basics)", "React.js (Basics)"],
   },
   {
-    title: "Backend",
-    skills: ["Node.js", "Express.js", "Remix.js", "REST APIs"],
+    title: "Architecture & Patterns",
+    skills: ["Microservices", "Clean Architecture", "RESTful APIs", "Dependency Injection", "Repository Pattern", "Factory Pattern", "Transactional Outbox"],
   },
   {
-    title: "Integrations",
-    skills: ["Microsoft Graph API", "Office.js", "Azure AD", "Axios"],
+    title: "Cloud & DevOps",
+    skills: [ "Azure DevOps", "Azure Data Factory", "Azure Key Vault", "Azure Blob Storage", "Docker", "Helm", "Terraform", "CI/CD"],
   },
   {
-    title: "Testing & Tools",
-    skills: ["Jest", "React Testing Library", "Git", "SonarQube", "Chrome DevTools"],
+    title: "Data & Search",
+    skills: ["SQL Server", "PostgreSQL", "Azure SQL", "Azure Cosmos DB", "Elasticsearch", "Databricks SQL"],
+  },
+  {
+    title: "Observability & Testing",
+    skills: ["Serilog", "OpenTelemetry", "New Relic", "xUnit", "NUnit", "FakeItEasy", "Testcontainers", "Swagger/OpenAPI", "Postman"],
+  },
+  {
+    title: "Tools",
+    skills: ["Visual Studio", "VS Code", "SSMS", "pgAdmin", "Git", "Azure Portal", "Jira", "Rally"],
   },
 ];
 
@@ -78,7 +86,7 @@ const Skills = () => {
         >
           <div className="inline-flex items-center gap-4 px-6 py-4 glass rounded-2xl">
             <span className="text-muted-foreground">Also experienced in:</span>
-            <span className="font-mono text-sm text-foreground">Microfrontend Architecture • Agile/Scrum • Component-Driven Development</span>
+            <span className="font-mono text-sm text-foreground">Backend Optimization • Web API Development • Cloud Integration</span>
           </div>
         </motion.div>
       </div>

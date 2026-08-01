@@ -32,7 +32,7 @@ const Navigation = () => {
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         <a href="#" className="text-xl font-bold text-gradient">
-          MKS
+          CB
         </a>
 
         {/* Desktop navigation */}
@@ -48,7 +48,14 @@ const Navigation = () => {
             </a>
           ))}
           <a
-            href="mailto:manu.singh8437@gmail.com"
+            href="/Chirag_Bhoyar_Resume.pdf"
+            download
+            className="px-5 py-2.5 bg-muted border border-border/50 text-foreground font-semibold rounded-lg hover:bg-muted/80 transition-all duration-300"
+          >
+            Resume
+          </a>
+          <a
+            href="mailto:chiragbhoyar@gmail.com"
             className="px-5 py-2.5 bg-gradient-primary text-primary-foreground font-semibold rounded-lg hover:shadow-glow transition-all duration-300"
           >
             Hire Me
@@ -85,7 +92,14 @@ const Navigation = () => {
               </a>
             ))}
             <a
-              href="mailto:manu.singh8437@gmail.com"
+              href="/Chirag_Bhoyar_Resume.pdf"
+              download
+              className="px-5 py-3 bg-muted border border-border/50 text-foreground font-semibold rounded-lg text-center"
+            >
+              Resume
+            </a>
+            <a
+              href="mailto:chiragbhoyar@gmail.com"
               className="px-5 py-3 bg-gradient-primary text-primary-foreground font-semibold rounded-lg text-center"
             >
               Hire Me

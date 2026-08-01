@@ -18,7 +18,7 @@ const Contact = () => {
           <span className="font-mono text-primary text-sm tracking-wider">CONTACT</span>
           <h2 className="text-4xl md:text-5xl font-bold mt-2 text-gradient">Let's Work Together</h2>
           <p className="text-muted-foreground mt-4 max-w-xl mx-auto">
-            Open to new opportunities and interesting projects. Feel free to reach out!
+            Open to new opportunities in .NET, cloud, and backend development. Feel free to connect for projects, collaborations, or hiring.
           </p>
         </motion.div>
 
@@ -30,25 +30,25 @@ const Contact = () => {
           className="grid gap-6 md:grid-cols-3 mb-12"
         >
           <a
-            href="mailto:manu.singh8437@gmail.com"
+            href="mailto:chiragbhoyar@gmail.com"
             className="group flex flex-col items-center p-6 bg-gradient-card rounded-2xl border border-border/50 hover:border-primary/30 transition-all duration-500 hover:shadow-glow"
           >
             <div className="p-4 bg-gradient-primary rounded-xl mb-4 group-hover:scale-110 transition-transform">
               <Mail className="w-6 h-6 text-primary-foreground" />
             </div>
             <span className="text-muted-foreground text-sm mb-1">Email</span>
-            <span className="text-foreground font-medium text-center break-all">manu.singh8437@gmail.com</span>
+            <span className="text-foreground font-medium text-center break-all">chiragbhoyar@gmail.com</span>
           </a>
 
           <a
-            href="tel:+918437850895"
+            href="tel:+919834194933"
             className="group flex flex-col items-center p-6 bg-gradient-card rounded-2xl border border-border/50 hover:border-primary/30 transition-all duration-500 hover:shadow-glow"
           >
             <div className="p-4 bg-gradient-primary rounded-xl mb-4 group-hover:scale-110 transition-transform">
               <Phone className="w-6 h-6 text-primary-foreground" />
             </div>
             <span className="text-muted-foreground text-sm mb-1">Phone</span>
-            <span className="text-foreground font-medium">+91-8437850895</span>
+            <span className="text-foreground font-medium">+91-9834194933</span>
           </a>
 
           <div className="group flex flex-col items-center p-6 bg-gradient-card rounded-2xl border border-border/50 hover:border-primary/30 transition-all duration-500">
@@ -56,7 +56,7 @@ const Contact = () => {
               <MapPin className="w-6 h-6 text-primary-foreground" />
             </div>
             <span className="text-muted-foreground text-sm mb-1">Location</span>
-            <span className="text-foreground font-medium">Pune, India</span>
+            <span className="text-foreground font-medium">SR Nagar, Hyderabad, India</span>
           </div>
         </motion.div>
 
@@ -68,7 +68,7 @@ const Contact = () => {
           className="text-center"
         >
           <a
-            href="mailto:manu.singh8437@gmail.com?subject=Hello%20Manu!"
+            href="mailto:chiragbhoyar@gmail.com?subject=Hello%20Chirag!"
             className="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-primary text-primary-foreground font-semibold text-lg rounded-xl shadow-glow hover:shadow-float transition-all duration-300 hover:-translate-y-1"
           >
             <Send className="w-5 h-5" />

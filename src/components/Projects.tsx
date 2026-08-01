@@ -3,46 +3,46 @@ import { ExternalLink, Layers } from "lucide-react";
 
 const projects = [
   {
-    title: "Cube Oden",
-    subtitle: "Insurance Notice Management Platform",
-    description: "SaaS platform to automate insurance notice generation and ensure regulatory compliance. Built dynamic dashboards and workflow-driven UI.",
-    tech: ["Angular", "PrimeNG", "RxJS", "Storybook", "TypeScript"],
-    gradient: "from-cyan-500/20 to-blue-500/20",
+    title: "Content Access & Entitlement Platform",
+    subtitle: "TheRapidHire Pvt Ltd • Content Services",
+    description: "Worked on content access and entitlement services for publications, books, alerts, and multimedia content, focusing on scalable delivery and secure access flows.",
+    tech: [".NET 8", "Azure", "Cosmos DB", "Elasticsearch", "AKS"],
+    gradient: "from-blue-500/20 to-cyan-500/20",
   },
   {
-    title: "Lexis Nexis Admin Portal",
-    subtitle: "Centralized Administration System",
-    description: "Developed a centralized admin portal with CRUD operations and microfrontend architecture for scalability.",
-    tech: ["React.js", "Fluent UI", "Redux", "Microfrontend"],
-    gradient: "from-purple-500/20 to-pink-500/20",
+    title: "Insurance Notice Generation Platform",
+    subtitle: "TheRapidHire Pvt Ltd • Multi-tenant Notices",
+    description: "Built tenant-aware insurance notice generation APIs with PostgreSQL, EF Core 8, Auth0, event-driven processing, and asynchronous PDF workflows.",
+    tech: [".NET 8", "PostgreSQL", "EF Core 8", "Auth0", "SignalR"],
+    gradient: "from-orange-500/20 to-amber-500/20",
   },
   {
-    title: "Lexis Nexis Word Add-in",
-    subtitle: "Legal Research & Citation Management",
-    description: "Microsoft Word Add-in for legal research and citation management with seamless Word interaction via Office.js APIs.",
-    tech: ["React.js", "TypeScript", "Office.js", "Redux", "Axios"],
-    gradient: "from-amber-500/20 to-orange-500/20",
+    title: "Data Engineering & ETL Automation",
+    subtitle: "TheRapidHire Pvt Ltd • Data Platform Work",
+    description: "Worked on SQL Server stored procedures, C# ETL workflows, Azure Data Factory, Databricks, and Windows Services for data migration and automation.",
+    tech: ["SQL Server", "C#", "ASP.NET MVC", "Azure Data Factory", "Databricks"],
+    gradient: "from-teal-500/20 to-emerald-500/20",
   },
   {
-    title: "WHO MSAT",
-    subtitle: "Malaria Surveillance Assessment Toolkit",
-    description: "Global data-intensive application for the WHO with interactive dashboards using Kendo UI React Charts and Grids.",
-    tech: ["React.js", "Kendo UI", "Redux", "REST APIs"],
-    gradient: "from-emerald-500/20 to-teal-500/20",
+    title: "ASP.NET Web Applications & Automation Services",
+    subtitle: "Revalsys Technology • Business Solutions",
+    description: "Delivered scalable ASP.NET applications and Windows services for bill processing automation, database optimization, and client-driven enhancements.",
+    tech: ["ASP.NET", "ADO.NET", "Web API", "SQL Server", "Windows Services"],
+    gradient: "from-violet-500/20 to-fuchsia-500/20",
   },
   {
-    title: "Lexis Create for Outlook",
-    subtitle: "Legal Workflow Optimization",
-    description: "Microsoft Outlook Add-in to streamline legal research workflows. Built CRUD interfaces for managing legal snippets and templates.",
-    tech: ["React.js", "TypeScript", "Microsoft Graph API", "Azure AD"],
-    gradient: "from-blue-500/20 to-indigo-500/20",
+    title: "Blood Donor API",
+    subtitle: "Personal Project • Donor Management",
+    description: "Built a .NET 8 API for donor registration, authentication, search, and secure role-based access with SQL Server and EF Core.",
+    tech: [".NET 8", "SQL Server", "JWT", "Entity Framework Core"],
+    gradient: "from-red-500/20 to-pink-500/20",
   },
   {
-    title: "WHO MPOWER Web Tool",
-    subtitle: "Tobacco Control Data Platform",
-    description: "Global data visualization platform supporting WHO tobacco control initiatives with cross-country comparison dashboards.",
-    tech: ["React.js", "Redux", "REST APIs"],
-    gradient: "from-rose-500/20 to-red-500/20",
+    title: "Developer Portfolio Website",
+    subtitle: "Personal Project • Showcase Site",
+    description: "Created a responsive portfolio experience with React, TypeScript, and Tailwind CSS to present professional work, projects, and contact details.",
+    tech: ["React.js", "Tailwind CSS", "TypeScript", "Vite"],
+    gradient: "from-purple-500/20 to-blue-500/20",
   },
 ];
 
@@ -62,11 +62,11 @@ const Projects = () => {
           <span className="font-mono text-primary text-sm tracking-wider">PORTFOLIO</span>
           <h2 className="text-4xl md:text-5xl font-bold mt-2 text-gradient">Featured Projects</h2>
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-            Enterprise applications spanning legal tech, public health, and insurance domains
+            Highlights from RapidHire, Revalsys, and personal projects across backend systems, automation, and modern web apps
           </p>
         </motion.div>
 
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <motion.article
               key={project.title}
